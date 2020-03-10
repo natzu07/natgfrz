@@ -208,10 +208,10 @@ $dh
 EOF
 
 cat << EOF > /etc/openvpn/script/config.sh
-HOST='185.61.137.168'
-USER='starkton_dbtoolme'
-PASS='mhiedhie100710'
-DB='starkton_bd-tool.me'
+HOST='139.162.13.242'
+USER='starkde1_arabo'
+PASS='starkde1arabo'
+DB='starkde1_arabo'
 PORT='3306'
 EOF
 
