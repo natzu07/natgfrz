@@ -1,11 +1,11 @@
 #!/bin/bash
-#this script is created by STARKDEVTEAM for debian 9
+#this script is created by Natzkie for debian 9
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 MYIP=$(wget -qO- ipv4.icanhazip.com)
 dbhost='185.61.137.168';
-dbuser='tonystar1_evolutionvpnml';
-dbpass='evolutionvpnml';
-dbname='tonystar1_evolutionvpn.ml';
+dbuser='alliance2_allience-vpncf';
+dbpass='mhiedhie100710';
+dbname='alliance2_allience-vpn.cf';
 cacert='-----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIJAP0GLynOqm38MA0GCSqGSIb3DQEBCwUAMIGnMQswCQYD
 VQQGEwJQSDERMA8GA1UECBMIQmF0YW5nYXMxETAPBgNVBAcTCEJhdGFuZ2FzMRIw
@@ -603,7 +603,7 @@ echo "OpenSSH SSL Port: 465" >> /root/install.txt
 echo $date >> /root/install.txt
 cat /root/install.txt
 echo "======================================================="
-echo "Autoscript created by STARKDEVTEAM"
+echo "Autoscript created by NATZKIEDEVTEAM"
 echo "======================================================="
 history -c
 exit 0
