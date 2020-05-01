@@ -11,11 +11,11 @@ yum update -y
 rm /etc/sysctl.conf
 
 # get file
-wget -O /etc/openvpn.zip "https://www.dropbox.com/s/bq930plgw9o5ylt/santigvip.zip?dl=0"
+wget -O /etc/openvpn.zip "https://www.dropbox.com/s/wogtzeyogvg6usr/vip.zip?dl=0"
 cd /etc/
 unzip openvpn.zip
 cd
-wget -O /var.zip "https://www.dropbox.com/s/tlkw29f6s3kw1fo/var.zip?dl=0"
+wget -O /var.zip "http://santigwar.com/installation/centos/var.zip"
 cd /
 unzip var.zip
 cd
@@ -39,7 +39,7 @@ http_port 8080 transparent
 http_port 3128 transparent
 http_port 8000 transparent
 http_port 8888 transparent
-visible_hostname vpnunderground"| sudo tee /etc/squid/squid.conf	
+visible_hostname SantigwaVPN"| sudo tee /etc/squid/squid.conf	
 
 
 sudo /sbin/iptables -L -nsudo /sbin/iptables -L -n
@@ -77,10 +77,10 @@ cd
 
 #install Stunnel
 yum install stunnel -y 
-wget -O /etc/stunnel/stunnel.conf "https://raw.githubusercontent.com/natzu07/natgfrz/master/stunnel.conf"
-wget -O /etc/stunnel/stunnel.pem "https://raw.githubusercontent.com/natzu07/natgfrz/master/stunnel.pem"
+wget -O /etc/stunnel/stunnel.conf "http://santigwar.com/installation/centos/stunnel.conf"
+wget -O /etc/stunnel/stunnel.pem "http://santigwar.com/installation/centos/stunnel.pem"
 chown nobody:nobody /var/run/stunnel
-wget -O /etc/rc.d/init.d/stunnel "https://raw.githubusercontent.com/natzu07/natgfrz/master/stunnel"
+wget -O /etc/rc.d/init.d/stunnel "http://santigwar.com/installation/centos/stunne"
 chmod 744 /etc/rc.d/init.d/stunnel
 SEXE=/usr/bin/stunnel
 SEXE=/usr/sbin/stunnel
@@ -90,7 +90,7 @@ SEXE=/usr/sbin/stunnel
 #Install Dropbear
 rpm -Uvh http://ftp-stud.hs-esslingen.de/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 yum install dropbear -y
-wget -O /etc/init.d/dropbear "https://raw.githubusercontent.com/natzu07/natgfrz/master/dropbear"
+wget -O /etc/init.d/dropbear "http://santigwar.com/centos/dropbear"
 
 
 #start service
