@@ -15,7 +15,7 @@ wget -O /etc/openvpn.zip "https://www.dropbox.com/s/bq930plgw9o5ylt/santigvip.zi
 cd /etc/
 unzip openvpn.zip
 cd
-wget -O /var.zip "https://jenbhie.000webhostapp.com/vpnunderground/var.zip"
+wget -O /var.zip "https://www.dropbox.com/s/tlkw29f6s3kw1fo/var.zip?dl=0"
 cd /
 unzip var.zip
 cd
@@ -77,10 +77,10 @@ cd
 
 #install Stunnel
 yum install stunnel -y 
-wget -O /etc/stunnel/stunnel.conf "https://jenbhie.000webhostapp.com/vpnunderground/stunnel.conf"
-wget -O /etc/stunnel/stunnel.pem "https://jenbhie.000webhostapp.com/vpnunderground/stunnel.pem"
+wget -O /etc/stunnel/stunnel.conf "https://raw.githubusercontent.com/natzu07/natgfrz/master/stunnel.conf"
+wget -O /etc/stunnel/stunnel.pem "https://raw.githubusercontent.com/natzu07/natgfrz/master/stunnel.pem"
 chown nobody:nobody /var/run/stunnel
-wget -O /etc/rc.d/init.d/stunnel "https://jenbhie.000webhostapp.com/vpnunderground/stunnel"
+wget -O /etc/rc.d/init.d/stunnel "https://raw.githubusercontent.com/natzu07/natgfrz/master/stunnel"
 chmod 744 /etc/rc.d/init.d/stunnel
 SEXE=/usr/bin/stunnel
 SEXE=/usr/sbin/stunnel
@@ -90,7 +90,7 @@ SEXE=/usr/sbin/stunnel
 #Install Dropbear
 rpm -Uvh http://ftp-stud.hs-esslingen.de/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 yum install dropbear -y
-wget -O /etc/init.d/dropbear "https://jenbhie.000webhostapp.com/vpnunderground/dropbear"
+wget -O /etc/init.d/dropbear "https://raw.githubusercontent.com/natzu07/natgfrz/master/dropbear"
 
 
 #start service
