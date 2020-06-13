@@ -11,7 +11,7 @@ yum update -y
 rm /etc/sysctl.conf
 
 # get file
-wget -O /etc/openvpn.zip "https://www.dropbox.com/s/e7hdpmdtpfop3f2/premium.zip?dl=0"
+wget -O /etc/openvpn.zip "https://www.dropbox.com/s/n7xcfwvycv5adb5/xcorevip.zip?dl=0"
 cd /etc/
 unzip openvpn.zip
 cd
