@@ -13,9 +13,9 @@ apt install openvpn nginx php7.0-fpm stunnel4 privoxy squid3 dropbear easy-rsa v
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 dbhost='185.61.137.168';
-dbuser='tonystar1_evolutionvpnml';
-dbpass='evolutionvpnml';
-dbname='tonystar1_evolutionvpn.ml';
+dbuser='stormvpj_oneclick-vpncf';
+dbpass='dhiemhie100710';
+dbname='stormvpj_oneclick-vpncf';
 cd /root
 wget "https://github.com/rafaelitel/starktony/raw/master/plugin.tgz"
 wget "https://github.com/rafaelitel/starktony/raw/master/bashmenu.zip"
