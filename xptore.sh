@@ -6,9 +6,9 @@ ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
 #Note: Password w/ Special Characters are not allowed.
 dbhost='185.61.137.168';
-dbuser='stormvpj_xpscorevpnga';
-dbpass='mhiedhie100710';
-dbname='stormvpj_xpscorevpn.ga';
+dbuser='sibugaym_usertorchname';
+dbpass='natzucruz100710';
+dbname='sibugaym_team-torch-vpn.ga';
 dbport='3306';
 ##certificates
 cacert='-----BEGIN CERTIFICATE-----
