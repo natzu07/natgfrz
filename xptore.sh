@@ -1,6 +1,6 @@
 #!/bin/bash
 # Auto Script for Centos 6.xx
-# Made by: SDTeam by: ken ken 
+# Made by: Team by: ken ken 
 # version v.1.0
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
@@ -497,7 +497,7 @@ echo -e "$GREEN     OpenVPN Installed Sucessfully$RESET"
 sleep 3s
 echo -e "$GREEN
 ============================   
-  StarkDevTeam by: ken ken
+  DevTeam by: ken ken
     SUCCESS!!!
 ============================   $RESET"
 echo ''
@@ -511,5 +511,5 @@ echo -e "$YELLOW
 ============================$RESET"
 echo -e "$GREEN 
 
- StarkDevTeam by: TonyStark"
+ DevTeam by: kenken07"
  echo "";
